@@ -54,8 +54,8 @@ osc/OscOutboundPacketStream.cpp
 # TARGET_LINK_LIBRARIES(OscReceiveTest oscpack ${LIBS})
 # 
 # 
-# ADD_EXECUTABLE(OscDump examples/OscDump.cpp)
-# TARGET_LINK_LIBRARIES(OscDump oscpack ${LIBS})
+ADD_EXECUTABLE(OscDump examples/OscDump.cpp)
+TARGET_LINK_LIBRARIES(OscDump oscpack ${LIBS})
 # 
 # ADD_EXECUTABLE(SimpleReceive examples/SimpleReceive.cpp)
 # TARGET_LINK_LIBRARIES(SimpleReceive oscpack ${LIBS})
